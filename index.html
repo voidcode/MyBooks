@@ -43,7 +43,7 @@
 	    <div data-role="header">
 	   		<a href="#logon-page" data-icon="back" data-role="button" class="exit-booklist-page">EXIT</a>
 	        <h1>MyBooks</h1>
-	        <a href="#upload-book">UPLOAD</a>
+	        <!--<a href="#upload-book">UPLOAD</a>-->
 	    </div>
 	    <div data-role="main" class="ui-content">
             <ul data-role="listview" data-autodividers="true" data-inset="true"  data-filter="true" class="booklist" data-filter-placeholder="Find a book"></ul>
@@ -82,7 +82,7 @@
 				            $.each(books, function(index, value){
 				                $('.booklist').append('<li>'+
 				                    '<a target="_blank" href="books/'+value+'">'+
-				                    	'<img src="covers/'+value+'.jpg"/>'+
+				                    	/* '<img src="covers/'+value+'.jpg"/>'+ */
 				                    	value+ //<-- this is path to one-book-item
 				                    '</a>'+
 				                '</li>');
