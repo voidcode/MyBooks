@@ -1,18 +1,17 @@
-Installation steps for RestberryPi and Ubuntu:
+Installation on a RestberryPi or Ubuntu:
+
+##ONE-LINE INSTALL
 
 1)
-    Download the 'MyBooks'-project from GitHub 
-    
-        git clone git@hub
+
+        cd /var/www/ && git clone git@github.com:voidcode/MyBooks.git
+
 2)
+    Now lanuch your browser and goto 'MyBooks'
     
+        firefox http://YOUR-IP/Mybooks/
 
-3)
-    Install imagemagick
 
-        sudo apt-get install imagemagick
-4)
-    Install imagemagick PECL extension
+Now you are done!
     
-        sudo apt-get install php5-imagick
-
+    
