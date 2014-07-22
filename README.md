@@ -1,6 +1,7 @@
 #MYBooks
 
 ![alt screenshut](/screenshots/MyBooksDemoShut1.png)
+
 Installation on a RestberryPi or Ubuntu:
 
 ##HOW TO INSTALL IT
@@ -16,11 +17,12 @@ Installation on a RestberryPi or Ubuntu:
         firefox http://localhost/Mybooks/
 
 
-Now you are done!
-
+Now you are done!!
 
 ###How to changes the PASSWORD?
+
     Go to api.php
+
         <?php 
             //THIS IS YOUR PASSWORD
             $PASSWORD = '1234';//<--'1234' is the default password
@@ -28,5 +30,7 @@ Now you are done!
 
 
 ###.htaccess
-Here you can set max-upload-filesize-limit: default is 200MB)
+Here you can set max-upload-filesize-limit: 
+
+Default is 200MB
     
