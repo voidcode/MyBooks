@@ -1,5 +1,7 @@
 #MYBooks
 
+![alt screenshut](/screenshots/MyBooksDemoShut0.png)
+
 ![alt screenshut](/screenshots/MyBooksDemoShut1.png)
 
 Installation on a RestberryPi or Ubuntu:
