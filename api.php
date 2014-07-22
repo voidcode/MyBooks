@@ -7,8 +7,6 @@ $booksRoot = dirname(realpath(__FILE__)).'/books/';
 
 
 //API-parts-below
-
-
 //GET-calls
 switch($_GET['f']){
     case 'logon':
